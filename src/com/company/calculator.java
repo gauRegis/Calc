@@ -8,7 +8,7 @@ public class calculator {
     public String sign;
     public int ans;
 
-    public void MathOperation(){
+    public void Calculator(){
         Scanner num1 = new Scanner(System.in);
         System.out.print("type first number: ");
         number1 = num1.nextInt();
@@ -52,5 +52,7 @@ public class calculator {
            System.out.println("Error -> WrongMathOperationException");
         }
         System.out.println("Answer is -> " + number1 + sign + number2 + "=" + ans);
+
+
     }
 }
